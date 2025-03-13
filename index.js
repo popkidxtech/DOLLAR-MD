@@ -95,7 +95,7 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Demon slayer Connected"));
+                    console.log(chalk.green("PopkidXtech Connected"));
             Matrix.sendMessage(Matrix.user.id, { 
                 image: { url: "https://files.catbox.moe/5kvvfg.jpg" }, 
                 caption: `╭─────────────━┈⊷
