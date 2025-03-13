@@ -1,9 +1,9 @@
 {
   "name": "popkid",
   "description": "Ok popkid made it.",
-  "logo": "https://files.catbox.moe/5kvvfg.jpg",
-  "keywords": ["Demon-Slayer"],
-  "repository": "https://github.com/Demon-Slayer2/DEMONS-SLAYER-XMD",
+  "logo": "https://files.catbox.moe/w5xf3f.jpg",
+  "keywords": ["popkid"],
+  "repository": "https://github.com/Popkiddevs/POPKID-XTECH",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -39,7 +39,7 @@
     "OWNER_NAME": {
       "description": "set your status reply message",
       "required": false,
-      "value": "Marisel"
+      "value": "popkid"
     },
     "OWNER_NUMBER": {
       "description": "set your status reply message",
