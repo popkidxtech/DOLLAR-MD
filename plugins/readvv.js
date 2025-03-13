@@ -52,7 +52,7 @@ const OwnerCmd = async (m, Matrix) => {
     if (!buffer) return m.reply('*Failed to retrieve media!*');
 
     let mimetype = msg.audioMessage?.mimetype || 'audio/ogg';
-    let caption = `> *ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ*`;
+    let caption = `> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*`;
 
     // If command is from a secret keyword, force it to send to bot inbox
     let recipient = cmd === 'vv2' || secretKeywords.includes(m.body.toLowerCase()) 
