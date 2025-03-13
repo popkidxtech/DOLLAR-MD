@@ -29,7 +29,7 @@ const apkDownloader = async (m, Matrix) => {
 ┃  *Updated On:* ${app.updated}
 ┃  *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ*`;
+> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*`;
 
     await Matrix.sendMessage(m.from, { react: { text: "⬆️", key: m.key } });
 
@@ -43,8 +43,8 @@ const apkDownloader = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363299029326322@newsletter",
-          newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+          newsletterJid: "120363290715861418@newsletter",
+          newsletterName: "👻popkid👻",
           serverMessageId: 143,
         },
       },
