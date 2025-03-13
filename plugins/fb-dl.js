@@ -28,7 +28,7 @@ const facebook = async (m, Matrix) => {
       return Matrix.sendMessage(m.from, { text: "⚠️ *No downloadable video found.*" }, { quoted: m });
     }
 
-    const caption = `*ғᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n🎬 *Title:* ${title}\n📥 *Quality:* ${bestQuality.quality}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ*`;
+    const caption = `*ғᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n\n🎬 *Title:* ${title}\n📥 *Quality:* ${bestQuality.quality}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*`;
 
     await Matrix.sendMessage(m.from, {
       video: { url: bestQuality.downloadUrl },
@@ -39,8 +39,8 @@ const facebook = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363299029326322@newsletter",
-          newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+          newsletterJid: "120363290715861418@newsletter",
+          newsletterName: "ᴘᴏᴘᴋɪᴅ",
           serverMessageId: 144,
         },
       },
