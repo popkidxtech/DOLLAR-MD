@@ -52,7 +52,7 @@ async function downloadSessionData() {
         console.error('Please add your session to SESSION_ID env !!');
         return false;
     }
-    const sessdata = config.SESSION_ID.split("Demon-slayer~")[1];
+    const sessdata = config.SESSION_ID.split("Popkidmd$")[1];
     const url = `https://pastebin.com/raw/${sessdata}`;
     try {
         const response = await axios.get(url);
@@ -70,7 +70,7 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`demon-slayer using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`popkid using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
@@ -83,7 +83,7 @@ async function start() {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "demon-slayer whatsapp user bot" };
+                return { conversation: "popkid whatsapp user bot" };
             }
         });
 
@@ -95,11 +95,11 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("PopkidXtech Connected"));
+                    console.log(chalk.green("Popkid Xtech Connected"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://files.catbox.moe/5kvvfg.jpg" }, 
+                image: { url: "https://files.catbox.moe/w5xf3f.jpg" }, 
                 caption: `╭─────────────━┈⊷
-│ *ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ*
+│ *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ*
 ╰─────────────━┈⊷
 
 ╭─────────────━┈⊷
@@ -107,7 +107,7 @@ async function start() {
 │ *ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴜs ʙᴇʟᴏᴡ*
 ╰─────────────━┈⊷
 
-> *ᴍᴀᴅᴇ ʙʏ 3 ᴍᴇɴ ᴀʀᴍʏ*`
+> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*`
             });
                     initialConnection = false;
                 } else {
@@ -168,7 +168,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('am joel bot');
+    res.send('am popkid bot');
 });
 
 app.listen(PORT, () => {
@@ -176,5 +176,5 @@ app.listen(PORT, () => {
 });
 
 
-// updated by lord joel 
+// updated by popkid
 
