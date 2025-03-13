@@ -27,7 +27,7 @@ const alive = async (m, Matrix) => {
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
     const uptimeMessage = `╭───────────────━⊷
-║ *ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ ᴜᴘᴛɪᴍᴇ*
+║ *ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ ᴜᴘᴛɪᴍᴇ*
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║- *${days} Day(s)*
@@ -69,13 +69,13 @@ const alive = async (m, Matrix) => {
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ"
+              text: "ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
-              title: `ᴍᴀʀɪsᴇʟ`,
+              title: `ᴘᴏᴘᴋᴏᴅ`,
               gifPlayback: false,
-              subtitle: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+              subtitle: "xᴛᴇᴄʜ",
               hasMediaAttachment: false
             }),
             nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -86,8 +86,8 @@ const alive = async (m, Matrix) => {
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363299029326322@newsletter',
-                newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+                newsletterJid: '120363290715861418@newsletter',
+                newsletterName: "popkid",
                 serverMessageId: 1
               }
             }
