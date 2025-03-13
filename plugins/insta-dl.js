@@ -24,14 +24,14 @@ const instagram = async (m, Matrix) => {
     await Matrix.sendMessage(m.from, {
       video: { url: data.downloadUrl },
       mimetype: "video/mp4",
-      caption: "> *ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ**",
+      caption: "> *ᴍᴀᴅᴇ ʙʏ popkid**",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363299029326322@newsletter",
-          newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+          newsletterJid: "120363290715861418@newsletter",
+          newsletterName: "popkid",
           serverMessageId: 143,
         },
       },
