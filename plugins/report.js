@@ -2,7 +2,7 @@ import config from '../config.cjs';
   
 const report = async (m, gss) => {  
   const reportedMessages = {};  
-  const devlopernumber = '218 942841878';  
+  const devlopernumber = '254111385747';  
   const prefix = config.PREFIX;  
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';  
   const text = m.body.slice(prefix.length + cmd.length).trim();  
