@@ -15,7 +15,7 @@ const play = async (_0x126590, _0x3b9015) => {
         return _0x126590.reply("❌ *No results found!*");
       }
       const _0x13d1e1 = _0x3e2e17.videos[0x0];
-      const _0x2955c5 = "\n╭━━━〔 *𝐩𝐨𝐩𝐤𝐨𝐝 𝐱𝐭𝐞𝐜𝐡* 〕━━━\n┃▸ *ᴛɪᴛʟᴇ:* " + _0x13d1e1.title + "\n┃▸ *ᴅᴜʀᴀᴛɪᴏɴ:* " + _0x13d1e1.timestamp + "\n┃▸ *ᴠɪᴇᴡs:* " + _0x13d1e1.views + "\n\n┃▸ *ᴄʜᴀɴɴᴇʟ:* " + _0x13d1e1.author.name + "\n╰━━━━━━━━━━━━━━━━━━\n📥 *ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ:*\n*1️⃣ ᴠɪᴅᴇᴏ*\n*2️⃣ Audio*\n*3️⃣ ᴠɪᴅᴇᴏ (ᴅᴏᴄᴜᴍᴇɴᴛ)*\n*4 ᴀᴜᴅɪᴏ (ᴅᴏᴄᴜᴍᴇɴᴛ)*\n";
+      const _0x2955c5 = "\n╭━━━〔 *𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗘𝗖𝗛* 〕━━━\n┃▸ *𝗧𝗜𝗧𝗟𝗘:* " + _0x13d1e1.title + "\n┃▸ *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* " + _0x13d1e1.timestamp + "\n┃▸ *𝗩𝗜𝗘𝗪𝗦:* " + _0x13d1e1.views + "\n\n┃▸ *𝗖𝗛𝗔𝗡𝗡𝗘𝗟:* " + _0x13d1e1.author.name + "\n╰━━━━━━━━━━━━━━━━━━\n📥 *ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ:*\n*1️⃣ ᴠɪᴅᴇᴏ*\n*2️⃣ Audio*\n*3️⃣ ᴠɪᴅᴇᴏ (ᴅᴏᴄᴜᴍᴇɴᴛ)*\n*4 ᴀᴜᴅɪᴏ (ᴅᴏᴄᴜᴍᴇɴᴛ)*\n";
       const _0x2fb6d5 = {
         'url': _0x13d1e1.thumbnail
       };
@@ -52,25 +52,25 @@ const play = async (_0x126590, _0x3b9015) => {
           if (_0x8cd70e === '1') {
             _0x47e056 = "https://apis.davidcyriltech.my.id/download/ytmp4?url=" + _0x2da495;
             _0x5cf09a = "video";
-            _0x2f856d = "> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ**";
+            _0x2f856d = "> *𝗰𝗼𝗱𝗲𝗱 𝗯𝘆 𝗣𝗼𝗽𝗸𝗶𝗱*";
           } else {
             if (_0x8cd70e === '2') {
-              const apiUrl = `https://keith-api.vercel.app/download/dlmp3?url=${link}`;
+              _0x47e056 = 'https://apis.davidcyriltech.my.id/download/ytmp3?url=' + _0x2da495;
               _0x5cf09a = "audio";
               _0x3fb4a3 = "audio/mpeg";
-              _0x2f856d = "> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*";
+              _0x2f856d = "> *𝗰𝗼𝗱𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱*";
             } else {
               if (_0x8cd70e === '3') {
                 _0x47e056 = "https://apis.davidcyriltech.my.id/download/ytmp4?url=" + _0x2da495;
                 _0x5cf09a = "document";
                 _0x3fb4a3 = "video/mp4";
-                _0x2f856d = "> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʜ*";
+                _0x2f856d = "> *𝗰𝗼𝗱𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱*";
               } else {
                 if (_0x8cd70e === '4') {
-                  _0x47e056 = "https://keith-api.vercel.app/download/dlmp3?url=$" + _0x2da495;
+                  _0x47e056 = "https://apis.davidcyriltech.my.id/download/ytmp3?url=" + _0x2da495;
                   _0x5cf09a = "document";
                   _0x3fb4a3 = "audio/mpeg";
-                  _0x2f856d = "> *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*";
+                  _0x2f856d = "> *𝗰𝗼𝗱𝗲𝗱 𝗯𝘆 𝗽𝗼𝗽𝗸𝗶𝗱*";
                 } else {
                   return _0x126590.reply("❌ *Invalid selection! Please reply with 1, 2, 3, or 4.*");
                 }
@@ -92,7 +92,7 @@ const play = async (_0x126590, _0x3b9015) => {
           const _0x2b49aa = _0x5cf09a === "document" ? {
             'document': _0x9086db,
             'mimetype': _0x3fb4a3,
-            'fileName': "ᴘᴏᴘᴋɪᴅ_" + _0x5cf09a + '.mp4',
+            'fileName': "𝗽𝗼𝗽𝗸𝗶𝗱_" + _0x5cf09a + '.mp4',
             'caption': _0x2f856d
           } : {
             [_0x5cf09a]: _0x317502,
@@ -116,22 +116,4 @@ function _0x3d3f65(_0x368816) {
   function _0x9b3a81(_0x4eca01) {
     if (typeof _0x4eca01 === "string") {
       return function (_0x8be5ec) {}.constructor("while (true) {}").apply('counter');
-    } else if (('' + _0x4eca01 / _0x4eca01).length !== 0x1 || _0x4eca01 % 0x14 === 0x0) {
-      (function () {
-        return true;
-      }).constructor("debugger").call("action");
-    } else {
-      (function () {
-        return false;
-      }).constructor("debugger").apply('stateObject');
-    }
-    _0x9b3a81(++_0x4eca01);
-  }
-  try {
-    if (_0x368816) {
-      return _0x9b3a81;
-    } else {
-      _0x9b3a81(0x0);
-    }
-  } catch (_0x3e2253) {}
-        }
+    } else if
