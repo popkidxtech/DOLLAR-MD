@@ -15,8 +15,8 @@ const menu = async (m, sock) => {
   const pushName = m.pushName || '𝐔𝐒𝐄𝐑';
 
   // Get current time and date
-  const realTime = moment().tz("Africa/Kenya").format("HH:mm:ss");
-  const realDate = moment().tz("Aftica/Kenya").format("DD/MM/YYYY");
+  const realTime = moment().tz("Asia/Karachi").format("HH:mm:ss");
+  const realDate = moment().tz("Asia/Karachi").format("DD/MM/YYYY");
 
   let pushwish = "";
   if (realTime < "05:00:00") {
