@@ -112,7 +112,7 @@ const dlSong = async (_0x22e4d7, _0xe6b997) => {
       _0x496838.contextInfo.isForwarded = false;
       _0x496838.contextInfo.forwardingScore = 0x3e7;
       _0x496838.contextInfo.externalAdReply = {};
-      _0x496838.contextInfo.externalAdReply.title = "✨ Sarkar-MD ✨";
+      _0x496838.contextInfo.externalAdReply.title = "✨popkid✨";
       _0x496838.contextInfo.externalAdReply.body = "YouTube Audio Downloader";
       _0x496838.contextInfo.externalAdReply.thumbnailUrl = _0x10ef0b;
       _0x496838.contextInfo.externalAdReply.sourceUrl = _0x10d7f0;
