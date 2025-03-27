@@ -15,8 +15,8 @@ const menu = async (m, sock) => {
   const pushName = m.pushName || '𝐔𝐒𝐄𝐑';
 
   // Get current time and date
-  const realTime = moment().tz("Asia/Karachi").format("HH:mm:ss");
-  const realDate = moment().tz("Asia/Karachi").format("DD/MM/YYYY");
+  const realTime = moment().tz("Africa/Kenya").format("HH:mm:ss");
+  const realDate = moment().tz("Aftica/Kenya").format("DD/MM/YYYY");
 
   let pushwish = "";
   if (realTime < "05:00:00") {
@@ -47,7 +47,7 @@ const menu = async (m, sock) => {
           externalAdReply: {
             title: "🩷𝐩𝐨𝐩𝐤𝐢𝐝🩷",
             body: pushName,
-            thumbnailUrl: 'https://raw.githubusercontent.com/Sarkar-Bandaheali/BALOCH-MD_DATABASE/refs/heads/main/Pairing/1733805817658.webp',
+            thumbnailUrl: 'https://files.catbox.moe/nk71o3.jpg',
             sourceUrl: 'https://github.com/Popkiddevs/POPKID-XTECH',
             mediaType: 1,
             renderLargerThumbnail: true,
