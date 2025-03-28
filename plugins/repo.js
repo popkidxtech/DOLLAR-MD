@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/Demon-Slayer2/DEMONS-SLAYER-XMD";
+    const githubRepoURL = "https://github.com/Popkiddevs/POPKID-XTECH";
 
     try {
       // Extract username and repo name from the URL
@@ -22,21 +22,21 @@ const repo = async (m, gss) => {
       const repoData = response.data;
 
       // Format the repository information
-      const formattedInfo = `*ʙᴏᴛ ɴᴀᴍᴇ:*\n> ${repoData.name}\n*ᴏᴡɴᴇʀ ᴍᴀᴍᴇ:*\n> ${repoData.owner.login}\n*sᴛᴀʀ:*\n> ${repoData.stargazers_count}\n*ғᴏʀᴋs:*\n> ${repoData.forks_count}\n*ɢɪᴛʜᴜʙ ʟɪɴᴋ:*\n> ${repoData.html_url}\n*ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:*\n> ${repoData.description || "No description"}\n*Don't Forget To Star and Fork Repository*\n> > *ᴍᴀᴅᴇ ʙʏ ᴄʀᴇᴡ sʟᴀʏᴇʀ*`;
+      const formattedInfo = `*ʙᴏᴛ ɴᴀᴍᴇ:*\n> ${repoData.name}\n*ᴏᴡɴᴇʀ ᴍᴀᴍᴇ:*\n> ${repoData.owner.login}\n*sᴛᴀʀ:*\n> ${repoData.stargazers_count}\n*ғᴏʀᴋs:*\n> ${repoData.forks_count}\n*ɢɪᴛʜᴜʙ ʟɪɴᴋ:*\n> ${repoData.html_url}\n*ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:*\n> ${repoData.description || "No description"}\n*Don't Forget To Star and Fork Repository*\n> > *ᴍᴀᴅᴇ ʙʏ ᴘᴏᴘᴋɪᴅ*`;
 
       // Send an image with the formatted info as a caption
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/5kvvfg.jpg" },
+          image: { url: "https://files.catbox.moe/nk71o3.jpg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363299029326322@newsletter",
-              newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+              newsletterJid: "120363290715861418@newsletter",
+              newsletterName: "ᴘᴏᴘᴋɪᴅ",
               serverMessageId: 143,
             },
           },
@@ -56,8 +56,8 @@ const repo = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363299029326322@newsletter",
-              newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+              newsletterJid: "120363290715861418@newsletter",
+              newsletterName: "ᴘᴏᴘᴋɪᴅ",
               serverMessageId: 143,
             },
           },
