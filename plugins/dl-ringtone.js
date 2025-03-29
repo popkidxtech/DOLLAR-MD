@@ -34,8 +34,8 @@ const ringtone = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363299029326322@newsletter',
-          newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+          newsletterJid: '120363290715861418@newsletter',
+          newsletterName: "ᴘᴏᴘᴋɪᴅ xᴛᴇᴄʙ",
           serverMessageId: 143
         }
       }
