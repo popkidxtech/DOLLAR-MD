@@ -18,7 +18,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const botAdmin = participants.find(p => p.id === botNumber)?.admin;
     const senderAdmin = participants.find(p => p.id === m.sender)?.admin;
 
-    if (!botAdmin) return m.reply("*ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ ᴍᴜsᴛ ʙᴇ ᴀᴅᴍɪɴ*");
+    if (!botAdmin) return m.reply("*ᴘᴏᴘᴋɪᴅ ᴍᴜsᴛ ʙᴇ ᴀᴅᴍɪɴ*");
     if (!senderAdmin) return m.reply("*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ*");
 
     if (!m.mentionedJid) m.mentionedJid = [];
